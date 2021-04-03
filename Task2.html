@@ -1,0 +1,69 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html>
+  <head>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">DESCRIPTION</p>
+  </head>
+  <body>
+    <form>
+      <id="survey-form">
+        <label for="name" id="name-label">NAME: </label> 
+        <input id="name" type="text" placeholder="Enter you Name" required> <br> <br>
+        <label for="email" id="email-label">EMAIL: </label>
+        <input id="email" type="text" placeholder="Enter you Email" required> <br> <br>
+        <label for="number" id="number-label">NUMBER: </label>
+        <input id="number" type="text" placeholder="Enter you Age" min=0 max=135 required> <br> <br>
+        
+        <label for="dropdown" id="dropdown">Choose your branch: </label> <br>
+        <select id="dropdown" form="survey-form"> <br>
+          <option value="" disabled selected>Select an option: </option>
+          <option value="student">CSE</option>
+          <option value="student">AIE</option>
+          <option value="student">ECE</option>
+          <option value="student">EAC</option>
+          <option value="student">EEE</option>
+          <option value="student">MEE</option>
+        </select> <br> <br>
+        
+        <label for="semester">Choose you semester: </label> <br>
+          <label for="s_1">
+            <input type="radio" name="semester" id="s_1" value="1st Semester" required>1st Semester</label> <br>
+          <label for="s_2">
+            <input type="radio" name="semester" id="s_2" value="2nd Semester" required>2nd Semester</label> <br>
+          <label for="s_3">
+            <input type="radio" name="semester" id="s_3" value="3rd Semester" required>3rd Semester</label> <br>
+          <label for="s_4">
+            <input type="radio" name="semester" id="s_4" value="4th Semester" required>4th Semester</label> <br>
+          <label for="s_5">
+            <input type="radio" name="semester" id="s_5" value="5th Semester" required>5th Semester</label> <br>
+          <label for="s_6">
+            <input type="radio" name="semester" id="s_6" value="6th Semester" required>6th Semester</label> <br>
+          <label for="s_7">
+            <input type="radio" name="semester" id="s_7" value="7th Semester" required>7th Semester</label> <br>
+          <label for="s_8">
+            <input type="radio" name="semester" id="s_8" value="8th Semester" required>8th Semester</label> <br> <br>
+        
+        <label for="subjects">Choose the subjects preffered:</label> <br>
+          <label for="maths">
+            <input type="checkbox" name="maths" id="maths" value="maths">Mathematics</label> <br>
+          <label for="eng">
+            <input type="checkbox" name="eng" id="eng" value="eng">English</label> <br>
+          <label for="mec">
+            <input type="checkbox" name="mec" id="mec" value="phy">Mechanical</label> <br>
+          <label for="chem">
+            <input type="checkbox" name="chem" id="chem" value="chem">Chemical</label> <br>
+          <label for="civ">
+            <input type="checkbox" name="civ" id="civ" value="civ">Civil</label> <br>
+          <label for="ele">
+            <input type="checkbox" name="ele" id="ele" value="ele">Electrical</label> <br>
+          <label for="man">
+            <input type="checkbox" name="man" id="man" value="man">Management</label> <br> <br>
+        
+          <label for="queries">Any Queries?</label> <br>
+          <textarea id="queries" placeholder="Enter your Query"></textarea> <br> <br>
+        
+          <button id="submit"> Submit </button>
+    </form
+</body>
+</html>
+
