@@ -5,14 +5,19 @@
     <p id="description">DESCRIPTION</p>
   </head>
   <body>
-    <form>
-      <id="survey-form">
+    <form id="survey-form">      
         <label for="name" id="name-label">NAME: </label> 
         <input id="name" type="text" placeholder="Enter you Name" required> <br> <br>
         <label for="email" id="email-label">EMAIL: </label>
+        <div class="right">
+            <input type="email" id="email" class="input" required placeholder="Enter your email here">
+        </div>
         <input id="email" type="text" placeholder="Enter you Email" required> <br> <br>
         <label for="number" id="number-label">NUMBER: </label>
-        <input id="number" type="text" placeholder="Enter you Age" min=0 max=135 required> <br> <br>
+        <div class="right">
+            <input id="number" class="input" min="1" max="135" type="number" placeholder="Enter your age here">
+        </div>
+        <input id="number" type="text" placeholder="Enter you Age" required> <br> <br>
         
         <label for="dropdown" id="dropdown">Choose your branch: </label> <br>
         <select id="dropdown" form="survey-form"> <br>
