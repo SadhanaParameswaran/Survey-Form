@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(35deg, #29e9d1, #ffffff, #FFCCCC);
+    font-family: "Georgia";
+    text-align: center;
+    margin: auto;
+}
+#title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#description{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Lucida Handwriting"; 
+}
+#queries{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    font-size: 90%;
+}
+#submit{
+    margin: auto;
+    background: grey;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 12px 5px 12px;
+    margin-top: 5px;
+    font-size: 85%;
+}
